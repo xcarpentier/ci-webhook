@@ -1,10 +1,10 @@
 {
-  "name": "react-navigation-ci-webhook",
+  "name": "xc-ci-webhook",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "deploy": "now -e GITHUB_PASSWORD=@github_password && now alias"
+    "deploy": "now -e API_TOKEN=@api_token --public"
   },
   "license": "MIT",
   "dependencies": {

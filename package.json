@@ -8,6 +8,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "axios": "0.18.0",
     "micro": "^9.1.0",
     "octokat": "^0.9.2"
   }

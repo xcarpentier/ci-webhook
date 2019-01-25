@@ -77,7 +77,7 @@ const server = micro(async (req, res) => {
     await axios({
       method: 'POST',
       url:
-        'https://hooks.slack.com/services/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',
+        'https://hooks.slack.com/services/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',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
       },

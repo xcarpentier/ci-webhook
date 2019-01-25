@@ -53,7 +53,7 @@ const server = micro(async (req, res) => {
       data: `payload=${encodeURIComponent(
         JSON.stringify({
           text: `*Watchdog-System* APP for *${commit}* has been *deployed*! 🎉`,
-          channel: 'watchdog-ext',
+          channel: 'watchdog-alerts',
           username: 'bot',
           icon_emoji: ':iphone:',
           attachments: [
@@ -84,7 +84,7 @@ const server = micro(async (req, res) => {
       data: `payload=${encodeURIComponent(
         JSON.stringify({
           text: `*Watchdog-System* APP for *${commit}* build has been *crashed*! 🐛`,
-          channel: 'watchdog-ext',
+          channel: 'watchdog-alerts',
           username: 'bot',
           icon_emoji: ':iphone:',
           attachments: [
